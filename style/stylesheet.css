@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #profilePicture:hover {
   content: url("../img/itziar2.png");
 }
@@ -26,13 +27,13 @@
 }
 
 @media (min-width: 400px) {
-  body {
-    background-color: lightgreen !important;
+  #description:after {
+    content: "Actualmente estoy doctorando en mis ratos libres y ojalá pueda decir pronto que soy doctora en marketing. ";
   }
 }
 @media (max-width: 399px) {
-  body {
-    background-color: black !important;
+  #description:before {
+    content: "eeee";
   }
 }
 
